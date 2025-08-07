@@ -1,4 +1,4 @@
-import { Tag } from '../_models/Tag';
+import { Tag } from './tag';
 
 export interface project {
     id: number;
