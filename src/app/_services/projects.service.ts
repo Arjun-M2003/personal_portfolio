@@ -13,13 +13,13 @@ export class ProjectsService {
     {id: 2, name: 'Package Recommendation Project', summary: 'Built a Node.js backend with REST and GraphQL APIs to serve AI-generated quality metrics for open-source packages', description: 'Built a scalable system using TypeScript and Node.js to evaluate open-source package quality through custom metrics like commit responsiveness. Exposed dynamic data via REST and GraphQL APIs with metadata stored in AWS S3, enabling real-time quality scoring for frontend use.', projectUrl: 'https://github.com/kevastator/trustworthy-module-registry', tags: [Tag.TYPESCRIPT, Tag.AWS, Tag.NODEJS, Tag.GRAPHQL], pictures: []},
   ];
 
-  constructor() { }
+  constructor() {}
 
   getProjects(): project[] {
     return this.projects;
   }
 
-  getProjectById(id: number): project  {
+  getProjectById(id: number) : project  {
     let project = this.projects.find(project => project.id === id);
 
     if(project === undefined) {

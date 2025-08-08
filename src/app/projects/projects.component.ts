@@ -9,7 +9,7 @@ import { ProjectsService } from '../_services/projects.service';
   selector: 'app-projects',
   imports: [ProjectCardComponent, CommonModule],
   templateUrl: './projects.component.html',
-  styleUrl: './projects.component.css'
+  styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
 

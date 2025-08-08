@@ -1,11 +1,11 @@
 import { Component , Input} from '@angular/core';
 import { project } from '../_models/project';
 import { CommonModule } from '@angular/common';
-import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
+import { BsModalRef, BsModalService, ModalModule } from 'ngx-bootstrap/modal';
 
 @Component({
   selector: 'app-project-card',
-  imports: [CommonModule],
+  imports: [CommonModule, ModalModule],
   templateUrl: './project-card.component.html',
   styleUrl: './project-card.component.css'
 })
