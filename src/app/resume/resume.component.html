@@ -1,1 +1,67 @@
-<p>resume works!</p>
+<div class="container text-center">
+    <button (click)="downloadFile()" class="btn btn-primary mb-5 shadow border">Download Resume</button>
+
+    <div class="pb-2">
+        <accordion [isAnimated]="true" class="shadow">
+            <accordion-group [isOpen]="isWorkExperienceOpen">
+                <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                    <div class="btn-link">Work Experience</div>
+
+                    <div *ngIf="!isWorkExperienceOpen" style="color: white;">></div>
+                    <div style="color: white;">v</div>
+                </button>
+                <div style="text-align: left;">
+                    <h2 class="mb-0">Design Enablement Intern</h2>
+                    <h3 class="text-primary">Intel</h3>
+                    <ul>
+                        <li>Designed an Excel based application through Visual Basic Studio to allow employees to select courses through three Intel partnered vendors (Siemens, Anys, and Synopsys) enhancing employee access and management of training opportunities</li>
+                        <li>Analyzed the ticket management system to develop data-driven visualizations, identifying key trends, recurring issues, and inefficiencies to support decision-making and enhance process efficiency</li>
+                        <li>Enhanced Intel teams by creating and updating the Design Enablement SharePoint web page to allow for employees to have easier access to information and contacts</li>
+                    </ul>
+                </div>
+            </accordion-group>
+
+            <accordion-group heading="Education">
+                <div style="text-align: left;">
+                    <h2 class="mb-0">Purdue University</h2>
+                    <h3 class="text-primary">B.S in Computer Engineering</h3>
+                    <h4 class="text-primary">Concentration: Machine Learning and AI</h4>
+                    <h5 class="text-secondary">2021 - 2025</h5>
+                </div>
+                <hr>
+                <div style="text-align: left;">
+                    <h2 class="mb-0">George Mason University</h2>
+                    <h3 class="text-primary">M.S in Data Analytics Engineering</h3>
+                    <h5 class="text-secondary">2025 - 2027 (expected)</h5>
+                </div>
+            </accordion-group>
+
+            <accordion-group heading="Certifications">
+                <div style="text-align: left;">
+                    <h3 style="text-align: left;">Automation & Advanced Techniques with Copilot in Excel</h3>
+                    <h4 class="text-secondary">Microsoft</h4>
+                    <h5 class="text-secondary">Issued: August 2025</h5>
+                </div>
+            </accordion-group>
+
+            <accordion-group heading="Skills">
+                <div class="row" style="text-align: left;">
+                    <li class="col-md-4">Python</li>
+                    <li class="col-md-4">C/C++</li>
+                    <li class="col-md-4">AWS</li>
+
+                    <li class="col-md-4">Typescript</li>
+                    <li class="col-md-4">Javascript</li>
+                    <li class="col-md-4">Excel / VBA</li>
+
+                    <li class="col-md-4">SQL</li>
+                    <li class="col-md-4">MongoDB</li>
+                    <li class="col-md-4">Docker</li>
+
+                    <li class="col-md-4">React</li>
+                    <li class="col-md-4">Angular</li>
+                </div>
+            </accordion-group>
+        </accordion>
+    </div>
+</div>
