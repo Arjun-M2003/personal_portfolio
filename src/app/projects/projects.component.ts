@@ -17,8 +17,9 @@ export class ProjectsComponent implements OnInit {
 
   constructor(private titleService: Title, private projectService: ProjectsService) {
     this.titleService.setTitle('My Portfolio - Projects');
+    console.log('ProjectsComponent constructor called');
   }
   ngOnInit(): void {
-    this.projects = this.projectService.getProjects();
+      this.projects = this.projectService.getProjects();
   }
 }
