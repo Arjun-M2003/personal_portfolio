@@ -3,13 +3,7 @@
 
     <div class="pb-2">
         <accordion [isAnimated]="true" class="shadow">
-            <accordion-group [isOpen]="isWorkExperienceOpen">
-                <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
-                    <div class="btn-link">Work Experience</div>
-
-                    <div *ngIf="!isWorkExperienceOpen" style="color: white;">></div>
-                    <div style="color: white;">v</div>
-                </button>
+            <accordion-group heading="Work Experience">
                 <div style="text-align: left;">
                     <h2 class="mb-0">Design Enablement Intern</h2>
                     <h3 class="text-primary">Intel</h3>

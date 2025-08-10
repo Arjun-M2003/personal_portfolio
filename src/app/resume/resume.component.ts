@@ -11,8 +11,6 @@ import { AccordionModule } from 'ngx-bootstrap/accordion';
 })
 export class ResumeComponent {
 
-  isWorkExperienceOpen: boolean = false;
-
   constructor(private titleService: Title, private renderer: Renderer2) {
     this.titleService.setTitle('My Portfolio - Resume');
   }
