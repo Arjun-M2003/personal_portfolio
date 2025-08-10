@@ -1,6 +1,8 @@
 import { Component , Input} from '@angular/core';
 import { project } from '../_models/project';
 import { CommonModule } from '@angular/common';
+import { MatDialog } from '@angular/material/dialog';
+import { ProjectDetailModalComponent } from '../project-detail-modal/project-detail-modal.component';
 
 
 @Component({
@@ -12,5 +14,15 @@ import { CommonModule } from '@angular/common';
 
 export class ProjectCardComponent {
   @Input() project: project = {} as project;
-  
+
+  constructor(private dialog: MatDialog) {}
+
+  openProjectModal(): void {
+    this.dialog.open(ProjectDetailModalComponent, {
+      width: '800px',
+      maxWidth: '90vw',
+      data: this.project
+    });
+  }
+
 }
