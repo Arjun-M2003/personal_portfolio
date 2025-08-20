@@ -1,8 +1,0 @@
-[build]
-  publish = "dist/angular-portfolio"
-  command = "ng build --configuration production"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
