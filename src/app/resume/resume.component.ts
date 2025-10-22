@@ -19,7 +19,7 @@ export class ResumeComponent {
     const link = this.renderer.createElement('a');
     link.setAttribute('target', '_blank');
     link.setAttribute('href', '../../assets/Arjun_Resume_pg_da.pdf');
-    link.setAttribute('download', 'Arjun_Resume_pg.pdf');
+    link.setAttribute('download', 'Arjun_Mangipudi_Resume.pdf');
     link.click();
     link.remove();
   }
