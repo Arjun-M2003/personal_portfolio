@@ -42,7 +42,7 @@ export class ProjectsService {
       description: 'Built a large-scale analytics pipeline integrating 1M+ World Bank Enterprise Survey records from 2006–2024 to study how governance quality, education levels, and health outcomes influence firm productivity globally. Automated preprocessing and outlier detection using AWS Glue DataBrew and Python (Pandas), improving data reliability for cross-country comparison. Conducted exploratory and inferential analysis in Python and R, including correlation matrices, regression modeling, and variance diagnostics to evaluate relationships among key economic indicators. Delivered reproducible insights to support policy-driven economic research and international development decision-making.', 
       projectUrl: '', 
       tags: [Tag.PYTHON, Tag.PANDAS, Tag.NUMPY, Tag.STATSMODEL, Tag.R, Tag.AWS], 
-      pictures: ['assets/AIT-50-pic1.png', 'assets/AIT-580-pic2.png', 'assets/AIT-580-pic3.png']},
+      pictures: ['assets/AIT-580-pic1.png', 'assets/AIT-580-pic2.png', 'assets/AIT-580-pic3.png']},
   ];
 
   constructor() {}
