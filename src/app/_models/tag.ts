@@ -24,6 +24,7 @@ export class Tag {
     static readonly STATSMODEL = new Tag('Statsmodel', 'lightpurple');
     static readonly FOLIUM = new Tag('Folium', 'lightgray');
     static readonly GEOPANDAS = new Tag('GeoPandas', 'yellow');
+    static readonly R = new Tag('R', 'darkred');
 
 
 
