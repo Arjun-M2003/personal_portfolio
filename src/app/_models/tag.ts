@@ -23,7 +23,7 @@ export class Tag {
     static readonly NUMPY = new Tag('NumPy', 'lightcoral');
     static readonly STATSMODEL = new Tag('Statsmodel', 'lightpurple');
     static readonly FOLIUM = new Tag('Folium', 'lightgray');
-    static readonly GEOPANDAS = new Tag('GeoPandas', 'darkyellow');
+    static readonly GEOPANDAS = new Tag('GeoPandas', 'yellow');
 
 
 
