@@ -13,13 +13,18 @@ export class Tag {
     static readonly NODEJS = new Tag('Node.js', '#32CD32');
     static readonly EXPRESS = new Tag('Express', '#008080');
     static readonly DOCKER = new Tag('Docker', 'maroon');
-    static readonly KUBERNETES = new Tag('Kubernetes', 'lightpurple');
     static readonly AWS = new Tag('AWS', 'gold');
     static readonly AZURE = new Tag('Azure', 'skyblue');
     static readonly NEXTJS = new Tag('Next.js', 'navy');
     static readonly FASTAPI = new Tag('FastAPI', 'darkgreen');
     static readonly AI = new Tag('AI', 'darkorange');
     static readonly GRAPHQL = new Tag('GraphQL', 'brown');
+    static readonly PANDAS = new Tag('Pandas', 'lightgreen');
+    static readonly NUMPY = new Tag('NumPy', 'lightcoral');
+    static readonly STATSMODEL = new Tag('Statsmodel', 'lightpurple');
+    static readonly FOLIUM = new Tag('Folium', 'lightgray');
+    static readonly GEOPANDAS = new Tag('GeoPandas', 'lightyellow');
+    
 
 
     private constructor(private readonly key: string, public readonly color: string){}

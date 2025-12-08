@@ -8,9 +8,34 @@ import { Tag } from '../_models/tag';
 export class ProjectsService {
 
   projects : project[] = [
-    {id: 0, name: 'Nutrition and Fitness Web App', summary: 'Built a full-stack social media web app for users to interact and track nutrional habits', description: 'Developed a full-stack social media web app for meal tracking and AI-driven food recommendations using React, MongoDB Atlas, Vercel, and Render. Implemented secure user authentication, RESTful APIs, and an optimized database schema to enable efficient meal logging, sharing, and personalized recommendations.', projectUrl: 'https://github.com/IanKarlmann/GrubGram', tags: [Tag.JAVASCRIPT, Tag.REACT, Tag.NODEJS, Tag.EXPRESS, Tag.MONGODB], pictures: ['assets/grubgram-meal-log.png', 'assets/grubgram-macro-tracking.png', 'assets/grubgram-macro-distribution.png', 'assets/grubgram-meal-plan.png']},
-    {id: 1, name: 'AI Podcast Summarizer', summary: 'Built a full-stack AI podcast summarizer web app', description: 'Implemented and integrated AI/ML models into full-stack applications to power intelligent features such as text summarization, recommendation systems, and data-driven insights. Experience includes working with OpenAI APIs, Whisper for audio transcription, and deploying scalable inference backends using FastAPI and Docker.', projectUrl: 'https://github.com/Arjun-M2003/podcast_sum', tags: [Tag.TYPESCRIPT, Tag.REACT, Tag.DOCKER, Tag.AWS, Tag.FASTAPI, Tag.AI], pictures: ['assets/podcast-sum-4.png', 'assets/podcast-sum-1.png', 'assets/podcast-sum-2.png', 'assets/podcast-sum-3.png']},
-    {id: 2, name: 'Package Recommendation Project', summary: 'Built a Node.js backend with REST and GraphQL APIs to serve AI-generated quality metrics for open-source packages', description: 'Built a scalable system using TypeScript and Node.js to evaluate open-source package quality through custom metrics like commit responsiveness. Exposed dynamic data via REST and GraphQL APIs with metadata stored in AWS S3, enabling real-time quality scoring for frontend use.', projectUrl: 'https://github.com/kevastator/trustworthy-module-registry', tags: [Tag.TYPESCRIPT, Tag.AWS, Tag.NODEJS, Tag.GRAPHQL], pictures: ['assets/package-1.png', 'assets/package-2.png', 'assets/package-3.png']},
+    {id: 0, 
+      name: 'Nutrition and Fitness Web App', 
+      summary: 'Built a full-stack social media web app for users to interact and track nutrional habits', 
+      description: 'Developed a full-stack social media web app for meal tracking and AI-driven food recommendations using React, MongoDB Atlas, Vercel, and Render. Implemented secure user authentication, RESTful APIs, and an optimized database schema to enable efficient meal logging, sharing, and personalized recommendations.', 
+      projectUrl: 'https://github.com/IanKarlmann/GrubGram', 
+      tags: [Tag.JAVASCRIPT, Tag.REACT, Tag.NODEJS, Tag.EXPRESS, Tag.MONGODB], 
+      pictures: ['assets/grubgram-meal-log.png', 'assets/grubgram-macro-tracking.png', 'assets/grubgram-macro-distribution.png', 'assets/grubgram-meal-plan.png']},
+    {id: 1, 
+      name: 'AI Podcast Summarizer', 
+      summary: 'Built a full-stack AI podcast summarizer web app', 
+      description: 'Implemented and integrated AI/ML models into full-stack applications to power intelligent features such as text summarization, recommendation systems, and data-driven insights. Experience includes working with OpenAI APIs, Whisper for audio transcription, and deploying scalable inference backends using FastAPI and Docker.', 
+      projectUrl: 'https://github.com/Arjun-M2003/podcast_sum', 
+      tags: [Tag.TYPESCRIPT, Tag.REACT, Tag.DOCKER, Tag.AWS, Tag.FASTAPI, Tag.AI], 
+      pictures: ['assets/podcast-sum-4.png', 'assets/podcast-sum-1.png', 'assets/podcast-sum-2.png', 'assets/podcast-sum-3.png']},
+    {id: 2, 
+      name: 'Package Recommendation Project', 
+      summary: 'Built a Node.js backend with REST and GraphQL APIs to serve AI-generated quality metrics for open-source packages', 
+      description: 'Built a scalable system using TypeScript and Node.js to evaluate open-source package quality through custom metrics like commit responsiveness. Exposed dynamic data via REST and GraphQL APIs with metadata stored in AWS S3, enabling real-time quality scoring for frontend use.', 
+      projectUrl: 'https://github.com/kevastator/trustworthy-module-registry', 
+      tags: [Tag.TYPESCRIPT, Tag.AWS, Tag.NODEJS, Tag.GRAPHQL], 
+      pictures: ['assets/package-1.png', 'assets/package-2.png', 'assets/package-3.png']},
+    {id: 3, 
+      name: 'NYC Vehicle Collision Analytics', 
+      summary: 'Analyzed 10M+ NYC collision records using Poisson regression and geospatial hotspot modeling to uncover high-risk roadway patterns', 
+      description: 'Engineered an integrated dataset from NYPD Open Data and NOAA weather sources (~10M records) and developed statistical and geospatial models to analyze crash frequency across NYC. Built Poisson regression models using Statsmodels to quantify behavioral and environmental predictors of collision risk, and created geospatial hotspot visualizations with GeoPandas, Shapely, and Folium to identify the city’s most collision-dense corridors and intersections. This project delivers interpretable, policy-relevant analytics for transportation and public-safety decision-making.', 
+      projectUrl: '', 
+      tags: [Tag.PYTHON, Tag.PANDAS, Tag.GEOPANDAS, Tag.NUMPY, Tag.STATSMODEL, Tag.FOLIUM], 
+      pictures: ['assets/collision_severity.png', 'assets/geo_visualization.png', 'assets/time_series_model.png']},
   ];
 
   constructor() {}
