@@ -35,7 +35,7 @@ export class ProjectsService {
       description: 'Engineered an integrated dataset from NYPD Open Data and NOAA weather sources (~10M records) and developed statistical and geospatial models to analyze crash frequency across NYC. Built Poisson regression models using Statsmodels to quantify behavioral and environmental predictors of collision risk, and created geospatial hotspot visualizations with GeoPandas, Shapely, and Folium to identify the city’s most collision-dense corridors and intersections. This project delivers interpretable, policy-relevant analytics for transportation and public-safety decision-making.', 
       projectUrl: '', 
       tags: [Tag.PYTHON, Tag.PANDAS, Tag.GEOPANDAS, Tag.NUMPY, Tag.STATSMODEL, Tag.FOLIUM], 
-      pictures: ['assets/collision_severity.png', 'assets/geo_visualization.png', 'assets/time_series_model.png']},
+      pictures: ['assets/collision_severity.png', 'assets/geo_visualization.png', 'assets/poisson_regression-pic.png','assets/time_series_model.png']},
     {id: 4, 
       name: 'Global Firm-Level Economic Analysis', 
       summary: 'Analyzed 1M+ World Bank Enterprise Survey records to model how governance, education, and health indicators shape firm performance across 150+ countries', 
