@@ -33,7 +33,7 @@ export class ProjectsService {
       name: 'NYC Vehicle Collision Analytics', 
       summary: 'Analyzed 10M+ NYC collision records using Poisson regression and geospatial hotspot modeling to uncover high-risk roadway patterns', 
       description: 'Engineered an integrated dataset from NYPD Open Data and NOAA weather sources (~10M records) and developed statistical and geospatial models to analyze crash frequency across NYC. Built Poisson regression models using Statsmodels to quantify behavioral and environmental predictors of collision risk, and created geospatial hotspot visualizations with GeoPandas, Shapely, and Folium to identify the city’s most collision-dense corridors and intersections. This project delivers interpretable, policy-relevant analytics for transportation and public-safety decision-making.', 
-      projectUrl: '', 
+      projectUrl: 'https://github.com/soohlim96/SchemaSentinelCode/tree/main', 
       tags: [Tag.PYTHON, Tag.PANDAS, Tag.GEOPANDAS, Tag.NUMPY, Tag.STATSMODEL, Tag.FOLIUM], 
       pictures: ['assets/collision_severity.png', 'assets/geo_visualization.png', 'assets/poisson_regression-pic.png','assets/time_series_model.png']},
     {id: 4, 
